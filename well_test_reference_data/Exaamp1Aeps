@@ -1,0 +1,328 @@
+<HEADER>
+3
+Production Optimization Systems
+PanSystem Version 2012
+Well Test Analysis Report
+
+0
+C:\Users\mmr\AppData\Roaming\Weatherford\PanSystem\reports\logo.bmp
+1
+
+Report File:NewFile1.panx
+Analysis Date:12/1/2014
+
+<FOOTER>
+1
+PanSystem - Copyright (C) 2012 Weatherford International
+
+<PAGE_NUMBERS>
+
+<PAGEBREAK>
+<HEADING>
+1
+Title Page
+<TABLE>
+1
+15
+0
+1
+
+
+Analyst name		
+Company		
+Well		
+Field		
+Date		
+Rig Name/Number		
+Test		
+Depth Reference - MSL		
+Gauge Type		
+Gauge Number		
+Gauge Depth - Measured		
+Gauge Depth - Vertical		
+Producing Formation Top		
+Producing Formation Bottom		
+Perforated interval Top		
+Perforated interval Bottom		
+Remarks:
+<PAGEBREAK>
+<HEADING>
+1
+Input Data
+
+<HEADING>
+2
+Reservoir Description
+
+Fluid type :Single-phase Oil
+Well orientation :Vertical
+Number of wells : 1
+Number of layers : 1
+
+<HEADING>
+2
+Layer Parameters Data
+<TABLE>
+1
+8
+1
+1
+
+
+	Layer 1	
+Formation thickness (ft)	23	
+Average formation porosity	0.21	
+Water saturation	0	
+Gas saturation	0	
+Formation compressibility (psi-1)	0	
+Total system compressibility (psi-1)	8.7200E-006	
+Layer pressure (psia)	0	
+Temperature (deg F)	0	
+
+
+<HEADING>
+2
+Well Parameters Data
+<TABLE>
+1
+9
+1
+0
+
+
+Well 1	
+Well radius (ft)	0.4	
+Distance from observation to active well (ft)	0	
+Wellbore storage coefficient (bbl/psi)	0.016	
+Storage Amplitude (psi)	0	
+Storage Time Constant (hr)	0	
+Second Wellbore Storage (bbl/psi)	0	
+Time Change for Second Storage (hr)	0	
+Well offset - x direction (ft)	0	
+Well offset - y direction (ft)	0	
+
+<HEADING>
+2
+Fluid Parameters Data
+
+<TABLE>
+1
+21
+1
+0
+
+
+Layer 1		
+Oil gravity (API)	0	
+Gas gravity (sp grav)	0	
+Gas-oil ratio (produced) (scf/STB)	0	
+Water cut	0	
+Water salinity (ppm)	0	
+Check Pressure (psia)	0	
+Check Temperature (deg F)	0	
+Gas-oil ratio (solution) (scf/STB)	0	
+Bubble-point pressure (psia)	0	
+Oil density (lb/ft3)	0	
+Oil viscosity (cp)	0.92	
+Oil formation volume factor (RB/STB)	1.21	
+Gas density (lb/ft3)	0	
+Gas viscosity (cp)	0.0	
+Gas formation volume factor (ft3/scf)	0	
+Water density (lb/ft3)	0	
+Water viscosity (cp)	0	
+Water formation volume factor (RB/STB)	0	
+Oil compressibility (psi-1)	0	
+Initial Gas compressibility (psi-1)	0	
+Water compressibility (psi-1)	0	
+
+
+<HEADING>
+2
+Layer 1  Correlations
+Not Used
+
+<HEADING>
+2
+Boundary Geometry
+
+<HEADING>
+2
+Layer Boundaries Data
+
+Layer 1 Boundary Type : Closed system
+L1	Boundary : 	No-flow
+L2	Boundary : 	No-flow
+L3	Boundary : 	No-flow
+L4	Boundary : 	No-flow
+<TABLE>
+1
+6
+1
+0
+
+
+Layer 1	
+L1 (ft)	0	
+L2 (ft)	0	
+L3 (ft)	0	
+L4 (ft)	0	
+Drainage area (acres)	0	
+Dietz shape factor ()	0	
+
+<HEADING>
+2
+Model Parameters
+
+Layer 1	 Model Data
+Layer 1  Model Type : Radial homogeneous
+<TABLE>
+1
+2
+1
+0
+
+
+Layer 1	
+Permeability (md)	88.256	
+Skin factor (Well 1)	7.694	
+
+
+
+<HEADING>
+2
+Rate Changes
+Rate Change Data
+
+<TABLE>
+2
+3
+2
+1
+
+
+Time	Pressure	Rate	
+Hours	psia	STB/day	
+0	6009	2500	
+100	2540	2500	
+
+<PAGEBREAK>
+<HEADING>
+1
+Analysis
+
+
+<GRAPHIC>C:\Users\mmr\AppData\Roaming\Weatherford\PanSystem\temp\Analysis2.emf
+
+
+					Test Overview Plot
+
+<GRAPHIC>C:\Users\mmr\AppData\Roaming\Weatherford\PanSystem\temp\Analysis3.emf
+
+
+					Log-Log Plot:TP1
+
+<HEADING>
+2
+Line Details
+Log-Log Plot Line Details
+Line type : Free model line
+Slope : Free model line
+Intercept : 8315.194
+Coefficient of Determination : Not Used
+Line type : Free model line
+Slope : Free model line
+Intercept : 113.677
+Coefficient of Determination : Not Used
+<TABLE>
+1
+3
+1
+0
+
+
+Free model line	
+Permeability (md)	75.148	
+Permeability-thickness (md.ft)	1728.405	
+Total mobility (md/cp)	81.683	
+Number of Intersections = 0
+
+<GRAPHIC>C:\Users\mmr\AppData\Roaming\Weatherford\PanSystem\temp\Analysis4.emf
+
+
+					Cartesian Plot:TP1
+
+<HEADING>
+2
+Local Results
+
+Cartesian Plot Model Results
+Radial homogeneous - Closed system
+Classic Wellbore Storage
+<TABLE>
+1
+4
+1
+0
+
+
+Value	
+Drainage area (acres)	44.088	
+Radius of drainage (ft)	781.862	
+Oil In Place (STB)	1.3654E+006	
+Dietz shape factor	20.752	
+
+<HEADING>
+2
+Line Details
+Cartesian Plot Line Details
+Line type : Closed system SSS flow
+Slope : Closed system SSS flow
+Intercept : 3156.753
+Coefficient of Determination : Not Used
+Number of Intersections = 0
+
+<GRAPHIC>C:\Users\mmr\AppData\Roaming\Weatherford\PanSystem\temp\Analysis5.emf
+
+
+					Type Curve Plot:TP1
+
+<HEADING>
+2
+Local Results
+
+Type Curve Plot Model Results
+Radial homogeneous - Closed system
+Classic Wellbore Storage
+<TABLE>
+1
+5
+1
+0
+
+
+Value	
+Permeability (md)	88.256	
+Permeability-thickness (md.ft)	2029.885	
+Wellbore storage coefficient (bbl/psi)	0.016	
+Dimensionless wellbore storage	2073.712	
+Skin factor	7.694	
+
+<HEADING>
+2
+Type Curve
+Type Curve Details
+
+Stage01File Name:C:\Users\mmr\AppData\Roaming\Weatherford\PanSystem\typecurv\radhomog.tch
+Axis Type : Td/Cd
+<TABLE>
+1
+4
+1
+0
+
+
+Stage01	
+Match point - X	-1.619	
+Match point - Y	-2.287	
+Curve Number	10	
+Curve Value	1.0000E+010	

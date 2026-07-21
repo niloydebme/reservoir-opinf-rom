@@ -1,0 +1,69 @@
+
+
+                          WELL TEST ANALYSIS REPORT                      
+                          Example 7 (Interference) 
+
+Production at step rate from active well, then shut in
+Pressure response after shut in i.e., PBU is measured at Observation well                      
+    ____________________________________________________________________ 
+     FLUID PROPERTIES                                                    
+    Bo, RB/STB                     1    Viscosity, cp              0.115
+    Ct, 10^-6/psi               8.84
+    ____________________________________________________________________ 
+     RESERVOIR PROPERTIES                                                
+    Porosity, fr                   1    Formation Thickness, ft     1000
+    Wellbore Radius, ft         0.33    Prod-Observer distance, ft  3353
+   
+     WELLBORE  ESTIMATES                                                 
+    
+    Pwf, psia                  173.3    Flow Efficiency                1
+    ____________________________________________________________________ 
+     RESERVOIR ESTIMATES                                                 
+    Permeability, md             786    Phi*ct*h, ft/psi        3.483e-3
+    Semi-log slope, 'm', psia 0.9109    Eff. Producing T, hours     1176
+   
+   
+    ____________________________________________________________________ 
+     PRESSURE  ESTIMATES                                                 
+    p*, psia                   175.1    p bar, psia                175.1
+    ____________________________________________________________________ 
+     COMMENTS                                                            
+                                                                         
+                                                                         
+    07-05-1995
+    ____________________________________________________________________ 
+
+
+                          WELL TEST ANALYSIS REPORT                      
+                          Example 7 (Interference)                       
+                           RATE AND PRESSURE DATA                         
+    
+    ____________________________________________________________________ 
+    RATE HISTORY                                                         
+    
+                           T of start    STB/d                           
+    
+                             144.000    23518.4  
+                             576.000    23301.1  
+                             1008.00    38292.1  
+                             1176.00    0.00000  
+    
+    ____________________________________________________________________ 
+    PRESSURE HISTORY                                                     
+    
+            T hours    P psia     DeltaT     DeltaP          
+    
+            1176.00    173.328  
+            1176.00    173.328    0.00000    0.00000  
+            1200.00    173.636    24.0000    0.30870  
+            1212.00    173.989    36.0000    0.66151  
+            1224.00    174.136    48.0000    0.80850  
+            1248.00    174.092    72.0000    0.76440  
+            1272.00    174.327    96.0000    0.99960  
+            1296.00    174.210    120.000    0.88200  
+            1320.00    174.327    144.000    0.99960  
+            1344.00    174.415    168.000    1.08781  
+            1368.00    174.592    192.000    1.26421  
+    
+    ____________________________________________________________________ 
+
