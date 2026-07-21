@@ -3,7 +3,7 @@
 %
 %  Highly heterogeneous reservoir — FINE MESH / HIGH RESOLUTION version
 %  of Case 2 (case2_heterogeneous.m), created for computational complexity
-%  benchmarking in Part 2 of the MSc thesis.
+%  benchmarking.
 %
 %  PURPOSE
 %  -------
