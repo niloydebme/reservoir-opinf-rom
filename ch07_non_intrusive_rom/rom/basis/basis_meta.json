@@ -2,8 +2,8 @@
   "n_modes": 15,
   "N_cells": 2500,
   "p_init_psia": 4500.0,
-  "proj_error_mean": 1.75219411489584e-10,
-  "proj_error_max": 1.3591558609104604e-09,
+  "proj_error_mean": 1.7521941148811043e-10,
+  "proj_error_max": 1.35915586089942e-09,
   "valid_pairs": [
     [
       10,
