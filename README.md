@@ -1,9 +1,9 @@
-# Modal Decomposition and Non-Intrusive Projection-Based Reduced-Order Model for Reservoir Pressure and Rate Transient Analysis
+# Modal Decomposition and Parametric Non-Intrusive Reduced-Order Modeling for Reservoir Pressure and Rate Transient Analysis
 
-POD-based reduced-order modeling of reservoir pressure-transient response:
+POD-based reduced-order modeling of reservoir pressure-transient response. It includes
 full-order simulation (MATLAB/MRST), modal decomposition and non-intrusive
-ROM training/validation (Python), and inverse parameter characterization
-against synthetic and published field data.
+ROM training/interpolation/validation (Python), and inverse parameter characterization
+against synthetic and published field data (Python).
 
 ## Structure
 
