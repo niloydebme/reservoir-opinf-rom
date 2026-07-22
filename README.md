@@ -35,12 +35,13 @@ Each notebook's first cell lists its own imports/dependencies.
 
 ## Data
 
-Raw simulation data (~5.5GB: snapshot matrices, well data, rock/grid fields,
+Raw simulation data (~7.3GB: snapshot matrices, well data, rock/grid fields,
 parameters) is hosted on Zenodo rather than in git:
+[10.5281/zenodo.21492749](https://doi.org/10.5281/zenodo.21492749)
 
-- `case_studies/data/` — <ZENODO DOI LINK>
-- `ch07_non_intrusive_rom/data/` — <ZENODO DOI LINK>
-- `ch08_inversion_characterization/data/` — <ZENODO DOI LINK>
+- `case_studies/data/` — `case_studies_data.zip`
+- `ch07_non_intrusive_rom/data/` — `ch07_non_intrusive_rom_data.zip`
+- `ch08_inversion_characterization/data/` — `ch08_inversion_characterization_data.zip`
 
 Extract into the matching `data/` folder so notebook-relative paths resolve.
 
