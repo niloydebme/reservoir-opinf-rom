@@ -52,3 +52,6 @@ Extract into the matching `data/` folder so notebook-relative paths resolve.
 | Python | 3.11 |
 | NumPy / SciPy | 1.26 / 1.12 |
 | h5py / pandas | 3.10 / 2.1 |
+| scikit-learn | 1.4 |
+
+Note: the working repository has been refined/streamlined using Claude Code. If any discrepancies remain, please feel free to report them.
