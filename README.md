@@ -1,4 +1,4 @@
-# Modal Decomposition and Parametric Non-Intrusive Reduced-Order Modeling for Reservoir Pressure and Rate Transient Analysis
+# Modal Decomposition and Non-Intrusive Parametric Reduced-Order Modeling for Reservoir Pressure and Rate Transient Analysis
 
 POD-based reduced-order modeling of reservoir pressure-transient response. It includes
 full-order simulation (MATLAB/MRST), modal decomposition and non-intrusive
@@ -35,8 +35,8 @@ Each notebook's first cell lists its own imports/dependencies.
 
 ## Data
 
-Raw simulation data (~7.3GB: snapshot matrices, well data, rock/grid fields,
-parameters) is hosted on Zenodo rather than in git:
+Raw simulation data (snapshot matrices, well data, rock/grid fields,
+parameters) is hosted on Zenodo:
 [10.5281/zenodo.21492749](https://doi.org/10.5281/zenodo.21492749)
 
 - `case_studies/data/` — `case_studies_data.zip`
