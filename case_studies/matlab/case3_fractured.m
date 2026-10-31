@@ -6,13 +6,12 @@
 %  the near-fracture region is resolved accurately while the far-field
 %  drainage area is large enough for a clear pseudo-radial plateau.
 %
-%  WHY non-uniform grid and t_end=50000hr:
-%    The x-direction uses logspace cell widths: finest near the fracture
-%    (capturing the LF-to-PSR transition accurately) and coarsest at the
-%    domain boundary.  The y-direction is uniform (fracture is a column).
-%    k_m=5 mD (4x tighter than Cases 1&2) + large domain (6000x6000m)
-%    gives t_BDF=19025hr — well beyond the 5000hr window of Cases 1&2.
-%    t_end=50000hr gives 0.42 log-decades of clear BDF signature.
+%  Design notes:
+%    x: logspace cell widths, finest at the fracture (resolves the LF-to-PSR
+%    transition); y: uniform (the fracture is a column).
+%    k_m = 5 mD (4x tighter than Cases 1&2) in a 6000x6000 m domain gives
+%    t_BDF = 19025 hr, beyond the 5000 hr window of Cases 1&2; t_end = 50000 hr
+%    leaves 0.42 log-decades of BDF.
 %
 %  Grid:
 %    nx = 101 (odd, symmetric about fracture, logspace x-spacing)

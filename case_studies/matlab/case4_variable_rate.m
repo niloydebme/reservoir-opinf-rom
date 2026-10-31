@@ -7,9 +7,7 @@
 %  and a final shut-in (pressure buildup), enabling Rate-Transient
 %  Analysis (RTA).
 %
-%  WHY variable rate (departure from Cases 1–3):
-%    Cases 1–3 used constant rate to isolate individual flow regimes.
-%    Case 4 tests the ROM under realistic, non-constant excitation.
+%  Cases 1–3 use a constant rate; Case 4 adds non-constant excitation.
 %
 %  Rate schedule (4 periods, 350 total log-spaced steps):
 %    Period 1: q =  800 STB/day,  0.001–1000 hr  (WBS + RF + BDF onset)

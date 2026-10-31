@@ -23,7 +23,7 @@ ch07_non_intrusive_rom/        Ch.7 — parametric non-intrusive ROM (OpInf + RB
   data/                         excluded from git, see data/README.md
 
 ch08_inversion_characterization/  Ch.8 — inverse characterization (grid search,
-                                   Nelder-Mead, two-stage, Horner cross-check)
+                                   Nelder-Mead, two-stage, Bourdet cross-check)
                                    and external field-data validation
   matlab/                       validation-batch generation + single-case driver
   notebooks/                    ch08_inversion_characterization, ch08_examp_field_validation

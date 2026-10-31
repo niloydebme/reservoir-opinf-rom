@@ -141,18 +141,9 @@ fprintf('\nWell    : cell %d | q = %d STB/day | S = %.0f | C = %.3f bbl/psi\n', 
 
 %% ── 6. Schedule : 350 log-spaced elapsed times, 0.001 to 5000 hr ────────
 %
-%  KEY DESIGN DECISION:
-%    t_nodes  = the ELAPSED simulation time at each output step [seconds]
-%    dt_vec   = diff([0; t_nodes]) = the actual timestep SIZE for each step
-%
-%  This is NOT the same as logspace(dt_min, dt_max, n).
-%  Using diff(elapsed) guarantees:
-%    (a) the first timestep covers exactly 0.001 hr from t=0
-%    (b) the final cumulative time equals t_end_hr exactly
-%    (c) timestep sizes grow smoothly (no sudden jumps)
-%
-%  The cumsum(logspace(...)) approach that appears in some MRST tutorials
-%  produces a different end-time from what was intended and should be avoided.
+%  t_nodes = elapsed time at each output step [s]; dt_vec = diff([0; t_nodes]).
+%  The first step covers exactly 0.001 hr and the last node lands on t_end_hr
+%  (cumsum(logspace(...)) would not).
 
 t_start_hr  = 0.001;   % hours  — deep inside WBS regime
 t_end_hr    = 5000;    % hours  — well into BDF

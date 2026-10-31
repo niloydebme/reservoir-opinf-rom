@@ -7,8 +7,8 @@
 %
 %  Total : 6 × 6 × 7 = 252 simulations  ≈  17 hr at 3 min/sim
 %
-%  RESUMABLE: already-completed cases (found in manifest.csv) are skipped
-%  automatically, so you can stop and restart without re-running anything.
+%  RESUMABLE: cases already listed in manifest.csv are skipped, so a run can
+%  be stopped and restarted.
 %
 %  Manifest file:  data/01_training/manifest.csv
 %    Columns: case_name, k_mD, S_skin, schedule_id, schedule_label,

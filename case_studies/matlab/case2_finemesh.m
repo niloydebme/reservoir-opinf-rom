@@ -7,10 +7,8 @@
 %
 %  PURPOSE
 %  -------
-%  Demonstrate the computational cost of high-resolution simulation versus
-%  the coarse reference (Case 2), and show that POD achieves similar
-%  reconstruction accuracy on BOTH grids, validating the method's
-%  mesh-independence and its value as a compression / ROM tool.
+%  Cost of high-resolution simulation versus the coarse reference (Case 2),
+%  and POD reconstruction accuracy on both grids (mesh independence).
 %
 %  RESOLUTION COMPARISON
 %  ----------------------
@@ -26,10 +24,8 @@
 %
 %  PERMEABILITY FIELD
 %  ------------------
-%  The coarse 50x50 log-normal field (rng=42, sigma_lnk=2.0, k_geo=20 mD)
-%  is generated first, then bilinearly interpolated onto the 200x200 fine
-%  grid. This preserves the spatial heterogeneity structure so that both
-%  grids sample the same underlying random field.
+%  Coarse 50x50 log-normal field (rng=42, sigma_lnk=2.0, k_geo=20 mD),
+%  bilinearly interpolated onto the 200x200 grid so both share one field.
 %
 %  All fluid/well/rock parameters are IDENTICAL to Case 2:
 %    phi = 0.18     ct = 1.2e-5 psi-1   mu = 1.2 cp    Bo = 1.15
@@ -106,11 +102,8 @@ fprintf('Domain          : %.0f m x %.0f m (unchanged)\n', ...
 
 %% ── 3. Permeability field: interpolate coarse 50x50 → fine 200x200 ───────
 %
-%  Strategy: generate the identical coarse 50x50 log-normal field (same
-%  rng seed = 42, same sigma_lnk = 2.0, same k_geo = 20 mD) and then
-%  bilinearly interpolate onto the fine Cartesian grid. This ensures both
-%  grids sample the SAME underlying heterogeneous structure, making the
-%  computational comparison physically meaningful.
+%  Same coarse 50x50 field as Case 2 (rng=42, sigma_lnk=2.0, k_geo=20 mD),
+%  bilinearly interpolated onto the fine grid.
 %
 nx_c = 50;  ny_c = 50;   % coarse dimensions (Case 2)
 dx_c = 30;  dy_c = 30;   % coarse cell size [m]
@@ -199,8 +192,7 @@ fprintf('Well    : cell %d | q = %d STB/day | S = %.0f | C = %.3f bbl/psi\n', ..
         wc, q_STBd, S_skin, C_bbl_psi);
 
 %% ── 6. Schedule : 1500 log-spaced steps, t = 0.001 to 5000 hr ───────────
-%  Same time range as Case 2; 4.3x more timesteps for higher temporal
-%  resolution and increased computational cost.
+%  Same time range as Case 2, 4.3x more timesteps.
 %
 t_start_hr = 0.001;
 t_end_hr   = 5000;

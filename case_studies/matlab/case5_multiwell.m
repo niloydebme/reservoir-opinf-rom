@@ -1,15 +1,8 @@
 %==========================================================================
-%  case6_multiwell.m  —  MRST 2025b
+%  case5_multiwell.m  —  MRST 2025b
 %
 %  Three-well multi-rate production with STAGGERED STARTUP.
 %  Wells start one after another and each changes rate independently.
-%
-%  PHYSICAL RATIONALE FOR STAGGERED STARTUP:
-%    Real field development proceeds sequentially — W1 is drilled and
-%    put on production first, W2 is brought online once W1 has established
-%    a pressure transient (here at t=500 hr, during RF), and W3 is added
-%    near the interference onset time.  Each well also changes rate at
-%    a different time, creating a rich multi-event history.
 %
 %  STARTUP SEQUENCE:
 %    W1 : t =  0.001 hr  q = 600 STB/day  (first producer)
@@ -44,7 +37,7 @@
 %    t_end = 30000  hr
 %
 %  Reservoir 10x6 km, k=20 mD, wells at ix=40,50,60 spacing=1000m
-%  Parameters identical to Cases 1, 4, and previous Case 6.
+%  Fluid and well parameters identical to Cases 1 and 4.
 %==========================================================================
 
 %% ── 0. Initialise MRST ──────────────────────────────────────────────────

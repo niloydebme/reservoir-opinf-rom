@@ -49,7 +49,7 @@ function export_to_mat(outdir, states, wellSols, schedule, rock, G, params)
 
     %--- 5. Transmissibility matrix A ---
     %  A = T * D  where T = TPFA transmissibility, D = divergence operator
-    %  Useful for verifying your SPD constraint in Python
+    %  Useful for checking the SPD constraint in Python
     T = computeTrans(G, rock);
     save(fullfile(outdir, 'transmissibility.mat'), 'T', '-v7.3');
 

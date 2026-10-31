@@ -1,4 +1,4 @@
-%GENERATE_VALIDATION_BATCH  Run validation simulations with two NEW rate
+%GENERATE_VALIDATION_BATCH  Run validation simulations with two additional rate
 %  schedules (IDs 8 and 9) at unseen (k, S) parameter values.
 %
 %  HOW IT DIFFERS FROM generate_training_batch.m
@@ -22,7 +22,7 @@
 %sched_ids = [2, 3, 5, 9];                   % new validation schedules only
 
 %
-%  NEW SCHEDULES  (defined in utils/make_rate_schedule.m, cases 8 and 9)
+%  SCHEDULES 8 AND 9  (defined in utils/make_rate_schedule.m)
 %  ID 8  q600_1100_bu       600 -> 1100 -> 0  STB/d   (changes at 800, 3000 hr)
 %  ID 9  q900_300_1000_200  900 -> 300 -> 1000 -> 200  (changes at 400, 1200, 3500 hr)
 %
