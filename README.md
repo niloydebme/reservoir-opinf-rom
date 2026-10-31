@@ -49,7 +49,7 @@ Extract into the matching `data/` folder so notebook-relative paths resolve.
 
 | Package | Version |
 |---|---|
-| MATLAB / MRST | R2023a / 2023a |
+| MATLAB / MRST | R2025b / 2025b |
 | Python | 3.11 |
 | NumPy / SciPy | 1.26 / 1.12 |
 | h5py / pandas | 3.10 / 2.1 |
